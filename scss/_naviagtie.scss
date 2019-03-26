@@ -1,0 +1,21 @@
+nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    li {
+      flex: auto;
+      a {
+        display: block;
+        padding: 10px;
+        background-color: darken($bgc, 20%);
+        color: white;
+        &:hover {
+          color: white;
+          background-color: darken($bgc, 30%);
+        }
+      }
+    }
+  }
+}

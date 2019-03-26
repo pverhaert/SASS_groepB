@@ -1,0 +1,35 @@
+{
+  "name": "1itf_Sass_project",
+  "version": "1.1.0",
+  "description": "1ITF Sass oefenineg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pverhaert/1ITF_Sass_oefeningen.git"
+  },
+  "keywords": [
+    "Thomas More Kempen",
+    "Sass",
+    "1ITF"
+  ],
+  "author": "Patrick Verhaert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pverhaert/1ITF_Sass_oefeningen/issues"
+  },
+  "homepage": "https://github.com/pverhaert/1ITF_Sass_oefeningen#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

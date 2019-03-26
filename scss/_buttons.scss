@@ -1,0 +1,23 @@
+@mixin button($color) {
+  border: 1px solid $color;
+  background-color: lighten($color, 10%);
+  &:hover {
+    background-color: lighten($color, 5%);
+  }
+}
+.btn {
+   padding: $p;
+   border-radius: $p/2;
+ }
+
+.btn-success {
+  @include button($success);
+}
+
+.btn-info {
+  @include button($info);
+}
+
+.btn-danger {
+  @include button($danger);
+}
